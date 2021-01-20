@@ -3,7 +3,8 @@
 current_dir = $(shell pwd)
 
 ## load dependencies for this project
-bootstrap: init-build-harness
+bootstrap: init
+	make brew
 	-ln -sv $(current_dir)/.tmux/ ~/
 	-ln -sv $(current_dir)/.tmux.conf ~/
 _PHONY: bootstrap
