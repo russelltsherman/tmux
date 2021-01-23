@@ -16,5 +16,5 @@ curl https://raw.githubusercontent.com/russelltsherman/tmux/main/bin/bootstrap |
 the slower start
 
 1. `git clone https://github.com/russelltsherman/tmux` to pull down the repository
-1. `make init` to initialize the [`build-harness`](https://github.com/russelltsherman/build-harness/)
+1. `make init` to initialize the [`build-harness`](https://github.com/opsbot/build-harness/)
 1. `make bootstrap` to load project dependencies
