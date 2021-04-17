@@ -5,6 +5,6 @@ current_dir = $(shell pwd)
 ## load dependencies for this project
 bootstrap:
 	make brew
-	-ln -sv $(current_dir)/.tmux/ ~/
-	-ln -sv $(current_dir)/.tmux.conf ~/
+	-ln -sfv $(current_dir)/.tmux/ ~/
+	-ln -sfv $(current_dir)/.tmux.conf ~/
 _PHONY: bootstrap
